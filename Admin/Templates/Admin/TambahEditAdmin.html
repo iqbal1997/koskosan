@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edit Fasilitas</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container mt-100">
+            
+      <table class="table table-striped">
+            <tbody>
+              <tr>
+                <td colspan="1">
+                  <form class="well form-horizontal" method="POST">
+                    {%csrf_token%}
+                    <fieldset>
+                      <div class="form-group">
+                        <label class="col-md-4 control-label">Nama Lengkap</label>
+                        <div class="col-md-8 inputGroupContainer">
+                          <div class="input-group"><span class="input-group-addon"><i
+                                class="glyphicon glyphicon-user"></i></span><input id="fullName" name="namalengkap"
+                              placeholder="Nama Lengkap" class="form-control" required="true" value="" type="text">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-md-4 control-label">No Telp</label>
+                        <div class="col-md-8 inputGroupContainer">
+                          <div class="input-group"><span class="input-group-addon"><i
+                                class="glyphicon glyphicon-user"></i></span><input id="fullName" name="notelp"
+                              placeholder="No Telp" class="form-control" required="true" value="" type="text"></div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-md-4 control-label">No HP</label>
+                        <div class="col-md-8 inputGroupContainer">
+                          <div class="input-group"><span class="input-group-addon"><i
+                                class="glyphicon glyphicon-user"></i></span><input id="fullName" name="nohp"
+                              placeholder="No HP" class="form-control" required="true" value="" type="text"></div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-md-4 control-label">Provinsi</label>
+                        <div class="col-md-8 inputGroupContainer">
+                          <div class="input-group"><span class="input-group-addon"><i
+                                class="glyphicon glyphicon-user"></i></span><input id="fullName" name="provinsi"
+                              placeholder="Provinsi" class="form-control" required="true" value="" type="text"></div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-md-4 control-label">Kota</label>
+                        <div class="col-md-8 inputGroupContainer">
+                          <div class="input-group"><span class="input-group-addon"><i
+                                class="glyphicon glyphicon-user"></i></span><input id="fullName" name="kota"
+                              placeholder="Kota" class="form-control" required="true" value="" type="text"></div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-md-4 control-label">Alamat</label>
+                        <div class="col-md-8 inputGroupContainer">
+                          <div class="input-group"><span class="input-group-addon"><i
+                                class="glyphicon glyphicon-user"></i></span><input id="fullName" name="alamat"
+                              placeholder="Alamat" class="form-control" required="true" value="" type="text"></div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-md-4 control-label">Kode Pos</label>
+                        <div class="col-md-8 inputGroupContainer">
+                          <div class="input-group"><span class="input-group-addon"><i
+                                class="glyphicon glyphicon-user"></i></span><input id="fullName" name="kodepos"
+                              placeholder="Kode Pos" class="form-control" required="true" value="" type="text"></div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-md-4 control-label">Email</label>
+                        <div class="col-md-8 inputGroupContainer">
+                          <div class="input-group"><span class="input-group-addon"><i
+                                class="glyphicon glyphicon-user"></i></span><input id="fullName" name="email"
+                              placeholder="Email" class="form-control" required="true" value="" type="text"></div>
+                        </div>
+                      </div>
+
+
+
+
+
+                      <ul class="nav justify-content-end">
+                        <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                          <button type="submit" class="btn btn-primary">Simpan</button>
+                        </div>
+                      </ul>
+                    </fieldset>
+                  </form>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+                    
+             <script src="vendor/jquery/jquery.min.js"></script>
+             <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
